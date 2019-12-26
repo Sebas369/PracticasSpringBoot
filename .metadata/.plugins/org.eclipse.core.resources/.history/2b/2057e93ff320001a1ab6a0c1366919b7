@@ -1,0 +1,15 @@
+package com.practica_3.app.models.dao;
+
+import java.util.List;
+
+import com.practica_3.app.models.entities.Consultation;
+
+public class ConsultationDaoImpl implements ConsultationDao {
+
+	@Override
+	public List<Consultation> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

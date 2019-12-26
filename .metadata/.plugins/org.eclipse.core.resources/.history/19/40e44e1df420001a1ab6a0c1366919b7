@@ -1,0 +1,23 @@
+package com.practica_3.app.models.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.stereotype.Repository;
+
+import com.practica_3.app.models.entities.Consultation;
+
+@Repository
+public class ConsultationDaoImpl implements IConsultationDao {
+	
+	Private EntityManager em;
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<Consultation> findAll() {
+		
+		return em.createQuery("from.Consultation").getResultList();
+	}
+
+}

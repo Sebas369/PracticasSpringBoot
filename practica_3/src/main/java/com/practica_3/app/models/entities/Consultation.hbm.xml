@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20 dic. 2019 08:57:28 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.practica_3.app.models.entities.Consultation" table="CONSULTATION">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="code" type="java.lang.String">
+            <column name="CODE" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="isMobile" type="java.lang.Boolean">
+            <column name="ISMOBILE" />
+        </property>
+        <property name="orderShow" type="java.lang.Integer">
+            <column name="ORDERSHOW" />
+        </property>
+    </class>
+</hibernate-mapping>

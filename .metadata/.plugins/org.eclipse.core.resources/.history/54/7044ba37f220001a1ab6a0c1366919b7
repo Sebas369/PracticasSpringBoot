@@ -1,0 +1,5 @@
+package com.practica_3.app.models.entities;
+
+public class Consultation {
+
+}

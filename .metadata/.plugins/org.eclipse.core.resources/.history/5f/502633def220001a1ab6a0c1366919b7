@@ -1,0 +1,5 @@
+package com.practica_3.app.models.dao;
+
+public interface ConsultationDao {
+
+}
